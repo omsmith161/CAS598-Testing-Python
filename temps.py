@@ -15,3 +15,10 @@ def sort_temperatures(measurements):
             normal.append(temperature)
 
     return low, normal, high
+
+def convert_from_fahrenheit(temps):
+    results = []
+    for temp in temps:
+        results.append((temp-32)/1.8)
+
+    return results
