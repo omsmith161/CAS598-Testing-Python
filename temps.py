@@ -24,7 +24,3 @@ def convert_from_fahrenheit(temps):
         results.append((temp-32)/1.8)
 
     return results
-
-def convert_from_something(temps):
-    # do something here
-    return temps
